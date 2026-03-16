@@ -1,0 +1,11 @@
+order_id,date,customer,region,product,category,quantity,unit_price
+1001,2025-01-10,John Doe,Europe,Laptop,Electronics,1,1200
+1002,2025-01-12,Jane Smith,Europe,Keyboard,Electronics,2,80
+1003,2025-01-15,Mark Lee,Asia,Mouse,Electronics,3,40
+1004,2025-02-02,Ana Garcia,Europe,Monitor,Electronics,1,300
+1005,2025-02-12,Chris Brown,North America,Laptop,Electronics,1,1200
+1006,2025-02-19,Sara Novak,Europe,Headphones,Electronics,2,150
+1007,2025-03-01,David Kim,Asia,Keyboard,Electronics,1,80
+1008,2025-03-11,Lisa Wong,North America,Mouse,Electronics,4,40
+1009,2025-03-18,Peter White,Europe,Monitor,Electronics,2,300
+1010,2025-03-25,Emma Green,Europe,Laptop,Electronics,1,1200

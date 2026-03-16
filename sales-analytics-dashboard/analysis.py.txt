@@ -1,0 +1,16 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("data/sales_data.csv")
+
+df["date"] = pd.to_datetime(df["date"])
+df["revenue"] = df["quantity"] * df["unit_price"]
+
+total_revenue = df["revenue"].sum()
+print("Total Revenue:", total_revenue)
+
+monthly = df.groupby(df["date"].dt.month)["revenue"].sum()
+
+monthly.plot(kind="bar")
+plt.title("Monthly Revenue")
+plt.show()
